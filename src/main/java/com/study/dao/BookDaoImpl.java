@@ -1,4 +1,4 @@
-package com.study.dao.impl;
+package com.study.dao;
 
 import com.study.dao.BookDao;
 import com.study.model.Book;
