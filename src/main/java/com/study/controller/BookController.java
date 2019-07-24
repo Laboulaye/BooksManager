@@ -55,11 +55,11 @@ public class BookController {
         return "books";
     }
 
-    @RequestMapping("bookdata/{id}")
+    @RequestMapping("bookData/{id}")
     public String bookData(@PathVariable("id") int id, Model model){
         model.addAttribute("book", this.bookService.getBookById(id));
 
-        return "bookdata";
+        return "bookData";
     }
 
 
